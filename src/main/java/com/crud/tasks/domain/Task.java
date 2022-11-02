@@ -1,6 +1,7 @@
 package com.crud.tasks.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Setter;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -11,6 +12,7 @@ import javax.persistence.Id;
 
 @NoArgsConstructor
 @AllArgsConstructor
+@Setter
 @Getter
 @Entity(name = "tasks")
 public class Task {
